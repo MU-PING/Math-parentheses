@@ -36,7 +36,7 @@ A: 字元數，例如：-12 * -11 + 5 - -0 總長度 = 12
 #### DP
 ![image](https://user-images.githubusercontent.com/86537930/125864494-1d94e012-9416-4bc1-bf22-4614bec81751.png)
 #### Output
-> 最小值的部份為附加功能
+> 最小值的部份為額外功能
 
 ![image](https://user-images.githubusercontent.com/86537930/125863992-4ae54fad-6e7a-4ffc-8bdc-340f4053e0f9.png)
 
