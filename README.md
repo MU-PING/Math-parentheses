@@ -1,4 +1,4 @@
-# Math_Parentheses
+# math-parentheses
 ## 程式簡介
 ### 簡述
 > 使用 Dynamic Programming 技術實作
