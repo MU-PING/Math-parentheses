@@ -49,11 +49,11 @@ A: 字元數，例如：-12 * -11 + 5 - -0 總長度 = 12
 
 ### 範例圖
 #### Input
-![image](https://user-images.githubusercontent.com/86537930/125863654-45322a8b-1469-4213-8bd0-37c776df4cec.png)
+![image](https://user-images.githubusercontent.com/93152909/139864586-5d737cb9-325b-4ef8-a4c2-bd34d5813338.png)
 #### DP
-![image](https://user-images.githubusercontent.com/86537930/125864494-1d94e012-9416-4bc1-bf22-4614bec81751.png)
+![image](https://user-images.githubusercontent.com/93152909/139864346-b5e3ac62-ea18-49b8-86d0-b018d02b1e09.png)
 #### Output
-> 原始碼中另外新增輸出「最小值」
+> 最小值用同樣原理也可以產生，原始碼中有額外實作
 
 ![image](https://user-images.githubusercontent.com/86537930/125863992-4ae54fad-6e7a-4ffc-8bdc-340f4053e0f9.png)
 
