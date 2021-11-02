@@ -6,12 +6,17 @@
 A mathematical expression is given without parentheses. Design an algorithm to parenthesize the expression such that the value of the expression is maximized. For example, consider the expression: 2 + 7 * 5. There are two ways to parenthesize the expression 2 + ( 7 * 5 ) = 37 and ( 2 + 7 ) * 5 = 45, so in this case, your algorithm
 should output the second expression. Here, you may assume the given expressions contain only 3 kinds of binary operators ‘ + ’, ‘ - ’, and ‘ * ’.
 
+* Input：數學表達式
+* Output：含括號的數學表達式，其值最大  
+
+1 <= expression's length <= 30 and if there are several solutions, output one of them
+
 Example 1
 ```
 Input: 2 + 7 * 5 - 3 * 6
 Output: ( ( ( 2 + 7 ) * 5 ) - 3 ) * 6  or  ( ( ( ( 2 + 7 ) * 5 ) - 3 ) * 6 ) 
 ```
-1 <= expression's length <= 30 and if there are several solutions, output one of them.
+
  
 Test 1
 ```
