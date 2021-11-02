@@ -7,7 +7,7 @@ A mathematical expression is given without parentheses. Design an algorithm to p
 should output the second expression. Here, you may assume the given expressions contain only 3 kinds of binary operators ‘ + ’, ‘ - ’, and ‘ * ’.
 
 * Input：數學表達式
-* Output：含括號的數學表達式，其值最大  
+* Output：含括號的數學表達式，其值最大( 最小為補充 )
 
 1 <= expression's length <= 30 and if there are several solutions, output one of them
 
