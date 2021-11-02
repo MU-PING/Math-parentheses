@@ -8,24 +8,24 @@ should output the second expression. Here, you may assume the given expressions 
 
 Example 1
 ```
-Input: expression = 2 + 7 * 5 - 3 * 6
+Input: 2 + 7 * 5 - 3 * 6
 Output: ( ( ( 2 + 7 ) * 5 ) - 3 ) * 6  or  ( ( ( ( 2 + 7 ) * 5 ) - 3 ) * 6 ) 
 ```
 1 <= expression's length <= 30 and if there are several solutions, output one of them.
  
 Test 1
 ```
-Input: expression = 5 - 8 + 7 * 4 - 8 + 9
+Input: 5 - 8 + 7 * 4 - 8 + 9
 Output: 5 - ( ( 8 + 7 ) * ( 4 - ( 8 + 9 ) ) )  
 ```
 Test 2
 ```
-Input: expression = -11 + 22 - -11 - 22
+Input: -11 + 22 - -11 - 22
 Output: -11 + ( 22 - ( -11 - 22 ) )  
 ```
 Test 3
 ```
-Input: expression = 2 - 7 * 5 + 1 - 4 + 8 * 3 
+Input: 2 - 7 * 5 + 1 - 4 + 8 * 3 
 Output: 2 - ( 7 * ( 5 + ( 1 - ( ( 4 + 8 ) * 3 ) ) ) )   
 ```
 
