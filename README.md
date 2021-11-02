@@ -6,16 +6,28 @@
 A mathematical expression is given without parentheses. Design an algorithm to parenthesize the expression such that the value of the expression is maximized. For example, consider the expression: 2 + 7 * 5. There are two ways to parenthesize the expression 2 + ( 7 * 5 ) = 37 and ( 2 + 7 ) * 5 = 45, so in this case, your algorithm
 should output the second expression. Here, you may assume the given expressions contain only 3 kinds of binary operators ‘ + ’, ‘ - ’, and ‘ * ’.
 
-* Input: expression Ex: 2 + 7 * 5 - 3 * 6
-* Output: ( ( ( 2 + 7 ) * 5 ) - 3 ) * 6  or  ( ( ( ( 2 + 7 ) * 5 ) - 3 ) * 6 ) 
-
+Example 1
+```
+Input: expression = 2 + 7 * 5 - 3 * 6
+Output: ( ( ( 2 + 7 ) * 5 ) - 3 ) * 6  or  ( ( ( ( 2 + 7 ) * 5 ) - 3 ) * 6 ) 
+```
 1 <= expression's length <= 30 and if there are several solutions, output one of them.
-
-	
-Test case:  
-1.  Input: 5 - 8 + 7 * 4 - 8 + 9 ; Output:  5 - ( ( 8 + 7 ) * ( 4 - ( 8 + 9 ) ) )  
-2.  Input: -11 + 22 - -11 - 22 ; Output: -11 + ( 22 - ( -11 - 22 ) )  
-3.  Input:  2 - 7 * 5 + 1 - 4 + 8 * 3 ; Output: 2 - ( 7 * ( 5 + ( 1 - ( ( 4 + 8 ) * 3 ) ) ) )  
+ 
+Test 1
+```
+Input: expression = 5 - 8 + 7 * 4 - 8 + 9
+Output: 5 - ( ( 8 + 7 ) * ( 4 - ( 8 + 9 ) ) )  
+```
+Test 2
+```
+Input: expression = -11 + 22 - -11 - 22
+Output: -11 + ( 22 - ( -11 - 22 ) )  
+```
+Test 3
+```
+Input: expression = 2 - 7 * 5 + 1 - 4 + 8 * 3 
+Output: 2 - ( 7 * ( 5 + ( 1 - ( ( 4 + 8 ) * 3 ) ) ) )   
+```
 
 ### 補充說明
 1. Q: 輸入都沒有空格 ? 要不要重複輸入 ?  
